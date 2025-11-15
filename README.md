@@ -6,7 +6,7 @@ A warm, eye-friendly React application for managing products with admin authenti
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone git@github.com:gpfing/webite-summative-lab-final.git
    cd website-lab
    ```
 
