@@ -1,0 +1,63 @@
+.product-link {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #a0522d;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 1rem 0;
+  cursor: pointer;
+  border: none;
+}
+
+.product-link:hover {
+  background-color: #8b4513;
+  transform: translateY(-2px);
+}
+
+.product-link:active {
+  transform: translateY(0);
+}
+
+/* Search bar styling */
+.searchbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f0ead6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(139, 105, 20, 0.2);
+  border: 1px solid #bfa76f;
+}
+
+.searchbar label {
+  font-weight: 500;
+  color: #2c1810;
+  white-space: nowrap;
+}
+
+.searchbar input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #bfa76f;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  max-width: 300px;
+  background-color: #faf6f0;
+}
+
+.searchbar input:focus {
+  outline: none;
+  border-color: #8b6914;
+  box-shadow: 0 0 0 3px rgba(139, 105, 20, 0.25);
+}
+
+.searchbar input::placeholder {
+  color: #8b7355;
+}

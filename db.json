@@ -1,0 +1,50 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "password123"
+  },
+  "products": [
+    {
+      "id": "2a41340f-df88-4000-8462-54bb68ba8028",
+      "name": "Keyboard",
+      "description": "Clickity-clackity",
+      "price": 220
+    },
+    {
+      "id": "2121bf84-f17b-45eb-85a4-7a4d3fd03521",
+      "name": "Mouse",
+      "description": "Click 'n scroll a lot",
+      "price": 60
+    },
+    {
+      "id": "69c025f2-1295-447a-95e8-b7b81d5c6873",
+      "name": "Headphones",
+      "description": "Ya heard?",
+      "price": 90
+    },
+    {
+      "id": "916bf0fb-9b38-4b1e-95a8-e04546ed40b2",
+      "name": "Mouse Pad",
+      "description": "Pillow for your hardware",
+      "price": 15
+    },
+    {
+      "id": "341ec54e-afd7-43c1-8a14-3245b2573ca5",
+      "name": "Gamer Glasses",
+      "description": "These make you look badass",
+      "price": 32
+    },
+    {
+      "id": "3bfd3a5d-68b5-4754-be8a-a61ff1b0cd3e",
+      "name": "Monitor",
+      "description": "See stuff",
+      "price": 450
+    },
+    {
+      "name": "Gamer Fuel",
+      "description": "Gets you hydrated for more gaming!",
+      "price": 5,
+      "id": "4QwnXJR"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.card {
+  padding: 1.5em;
+  border: 1px solid #8b6914;
+  border-radius: 8px;
+  background-color: #f0ead6;
+  box-shadow: 0 2px 8px rgba(139, 105, 20, 0.3);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgba(139, 105, 20, 0.4);
+  transform: translateY(-4px);
+  border-color: #704f10;
+}
+
+.card h2 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.3em;
+}
+
+.card p {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+}
+
+/* Responsive grid: 3 columns on medium screens, 2 on small, 1 on mobile */
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Edit card styling */
+.card-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-edit input[type="text"],
+.card-edit input[type="number"],
+.card-edit textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card-edit input[type="text"],
+.card-edit input[type="number"] {
+  height: 35px;
+}
+
+.card-edit textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.card-edit input:focus,
+.card-edit textarea:focus {
+  outline: none;
+  border-color: #8b6914;
+  box-shadow: 0 0 0 3px rgba(139, 105, 20, 0.3);
+}
+
+.edit-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.save-btn {
+  flex: 1;
+  padding: 0.6rem;
+  background-color: #654321;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-btn:hover:not(:disabled) {
+  background-color: #5d3e1d;
+}
+
+.save-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cancel-btn {
+  flex: 1;
+  padding: 0.6rem;
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  background-color: #7f8c8d;
+}
+
+.cancel-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.edit-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #a0522d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.edit-btn:hover {
+  background-color: #8b4513;
+}

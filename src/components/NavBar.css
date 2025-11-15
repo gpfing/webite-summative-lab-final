@@ -1,0 +1,32 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #3d2f1f;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.navbar > a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    padding: 8px 12px;
+    margin: 0 6px 6px;
+    background: #8b6914;
+    text-decoration: none;
+    text-align: center;
+    font-size: min(10vw, 15px);
+    color: #f0ead6;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+  
+a.active {
+    background: #654321;
+    color: white;
+}
+
+.navbar > a:hover {
+    background: #704f10;
+}
