@@ -7,7 +7,7 @@ A warm, eye-friendly React application for managing products with admin authenti
 1. **Clone the repository**
    ```bash
    git clone git@github.com:gpfing/webite-summative-lab-final.git
-   cd website-lab
+   cd website-summative-lab-final
    ```
 
 2. **Install dependencies**
@@ -15,13 +15,13 @@ A warm, eye-friendly React application for managing products with admin authenti
    npm install
    ```
 
-3. **Start the json-server (backend)**
+3. **Start the json-server**
    ```bash
    npm run server
    ```
    This will start the API server on `http://localhost:4000`
 
-4. **Start the React development server (frontend)**
+4. **Start the React development server**
    ```bash
    npm run dev
    ```
